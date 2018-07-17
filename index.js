@@ -16,7 +16,7 @@ const youtube = new YouTube(GOOGLE_API_KEY);
 const queue = new Map();
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame(prefix + 'Mido King || 3play ');
+    client.user.setGame(prefix + '_Spomi 3help || 3play ');
 });
 
 
@@ -246,14 +246,17 @@ var prefix = '3';
 
 client.on('message', msg => {
 	if (msg.content.startsWith(prefix + 'help')) {
-msg.author.send("Commands ستاتي " + `  **
-   "  : الاوامر "
-:headphones:  ${prefix}play |اسم لاغنيه / رابط الاغنية
-:headphones:  ${prefix}skipللإنتقاال الى الاغنيه التاليه (\اذا كان هناك بقائمة الانتظار\
-:headphones:  ${prefix}stop|لأيقاف الموسيقى
-:headphones:  ${prefix}volume |لتغير حجم الصوت
-:headphones:  ${prefix}np | لإقاف الموسيقى مؤقتا
-:headphones:  ${prefix}resume |لاعادت تشغيل الاغنية الموجودة
+msg.author.send("Commands  " + `  **
+   "  :  "
+pour invitait le BoT : click dans le liens
+https://discordapp.com/oauth2/authorize?client_id=468875658144120833&permissions=8&scope=bot
+des Aides :
+:headphones:  ${prefix}play | Music name or  Link Music  
+:headphones:  ${prefix}skip | Passer à la chanson suivante de la playlist
+:headphones:  ${prefix}stop| Pour arrêter la lecture
+:headphones:  ${prefix}volume | Pour changer le volume
+:headphones:  ${prefix}np | Mettre la musique en pause
+:headphones:  ${prefix}resume |  Pour redémarrer la musique actuelle 
 **`);
  }
 });
