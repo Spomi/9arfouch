@@ -16,7 +16,7 @@ const youtube = new YouTube(GOOGLE_API_KEY);
 const queue = new Map();
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame(prefix + '_Spomi 3help || 3play ');
+    client.user.setGame(prefix + ' play for start || 3help for add ');
 });
 
 client.on('message', message => {
