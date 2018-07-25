@@ -277,7 +277,7 @@ function isYoutube(str) {
      prefix = ${prefix}
      ping = ${Date.now() - message.createdTimestamp}ms
      for help = <Spomi_YT #9954>
-     By Marshall   `)
+     By Spomi #9954   `)
 
       message.channel.send({embed});
      }
